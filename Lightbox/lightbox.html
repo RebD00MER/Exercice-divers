@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet"  type="text/css" href="lightbox.css"/>
+<title>Lightbox</title>
+<body>
+  <div id="box"  onclick="('box').style.display='none';
+                   document.getElementById('filter').style.display='none'">
+                   <p>Merci pour votre commande !</p>
+  </div>
+  <div id="box" >
+<div id="boxheader">
+      <span id="boxtitle"> Commande !</span>
+       <span id="boxclose" onclick="document.getElementById('box').style.display='none';
+                 document.getElementById("shadowing").style.display='none'">
+      </span>
+</div>
+<div id="boxcontent"> Merci pour votre commande !  </div>
+</div>
+
+
+</body>
+</html>
